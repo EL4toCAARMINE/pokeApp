@@ -1,0 +1,14 @@
+.notFoundScreen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2{
+        font: 4em sans-serif;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,39 @@
+.card {
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    img{
+        width: 104%;
+        height: 104%;
+        object-fit: cover;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 60%;
+        left: 0%;
+        width: 300%;
+        height: 300%;
+        background: rgba(255, 255, 255, 0.2);
+        transform: rotate(45deg);
+        transition: transform 0.5s ease;
+      }
+    
+      &:hover::before {
+        transform: rotate(45deg) translate(-10%, 0%);
+      }
+}
