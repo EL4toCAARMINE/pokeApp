@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router';
 import CardComponent from '../components/CardComponent';
+import { ButtonGal } from 'galliard-ui';
 
 const pokemonCards = [
     {
@@ -124,7 +125,7 @@ export default function CardsScreen() {
             </main>
 
             <footer>
-                <div className="backButton" onClick={backToHome}>Volver a inicio</div>
+                <ButtonGal action={backToHome} styleType='ThemeYellow' borderedStyle='true' font='OpenSansBold' label='Volver a inicio' seeIcon={false}/>
             </footer>
         </div>
     )

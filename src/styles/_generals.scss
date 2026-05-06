@@ -57,9 +57,12 @@ p, h1, h2, h3, h4, h5, label {
   align-items: center;
   cursor: pointer;
   border: 3px solid colors.$pokemon-blue;
-  font-size: 2rem;
   transition: all .3s ease;
-  font-weight: bold;
+  
+  p {
+    color: colors.$pokemon-blue;
+    font-size: 2rem;
+  } 
 
   &:hover {
     border-width: 5px;
