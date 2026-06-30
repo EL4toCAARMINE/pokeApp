@@ -7,7 +7,7 @@ Aplicación web interactiva desarrollada en React que consume la **PokéAPI** pa
 * **Framework:** React
 * **Consumo de datos:** PokéAPI (vía Fetch API)
 * **Gestión de estado:** React Hooks (`useState`, `useEffect`)
-* **Estilos:** CSS puro con animaciones y transiciones personalizadas
+* **Estilos:** SASS con animaciones y transiciones personalizadas
 
 ## 🚀 Cómo ejecutar el proyecto
 
